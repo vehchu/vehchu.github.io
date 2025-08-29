@@ -15,10 +15,19 @@ import {
 export default function LandingPage() {
   return (
     <main>
-      <Container>
-        {/* VI Image thingy + Word */}
-        {/*  */}
+      {/* Vi's weird picture word thingy goes here */}
+      <Container
+        style={{
+          minHeight: "100vh",
+          width: "100vw",
+          backgroundColor: "#f6f6f6",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+        }}
+      >
         <h1>Tester</h1>
+        <p>hello</p>
       </Container>
     </main>
   );
